@@ -2,12 +2,13 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: app1
-  namespace: kiodo
-  labels:
-        app: webfront
 spec:
   replicas: 1
-  template:      
+  template:
+    metadata:
+      namespace: kiodo
+      labels:
+        app: webfront
     spec:
       containers:
         - name: nginx
@@ -19,12 +20,13 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: app2
-  namespace: kiodo
-  labels:
-        app: db
 spec:
   replicas: 1
   template:
+    metadata:
+      namespace: kiodo
+      labels:
+        app: db
     spec:
       containers:
         - name: nginx
