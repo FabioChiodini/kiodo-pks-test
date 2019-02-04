@@ -8,7 +8,7 @@ spec:
   template:
     metadata:
       labels:
-        app: webfront
+        app: nginx
     spec:
       containers:
         - name: nginx
@@ -19,7 +19,7 @@ spec:
 kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
-  name: app2
+  name: db
   namespace: kiodo
 spec:
   replicas: 1
