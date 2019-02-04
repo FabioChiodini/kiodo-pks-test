@@ -3,4 +3,4 @@ PKS Tests and demo kit
 
 To demo networking
 
-kubectl create namespace myapps
+kubectl create namespace kiodo
