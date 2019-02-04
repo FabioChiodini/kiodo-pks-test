@@ -2,6 +2,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: app1
+  namespace: kiodo
 spec:
   replicas: 1
   template:
@@ -19,6 +20,7 @@ kind: Deployment
 apiVersion: apps/v1
 metadata:
   name: app2
+  namespace: kiodo
 spec:
   replicas: 1
   template:
