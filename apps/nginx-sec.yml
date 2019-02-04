@@ -12,7 +12,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: harbor.vmlive.italy/vmlive/nginx
+          image: harbor.vmlive.italy/vmlive/nginx:1.15
           ports:
           - containerPort: 80
 ---
@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: harbor.vmlive.italy/vmlive/nginx
+          image: harbor.vmlive.italy/vmlive/nginx:1.15
           ports:
           - containerPort: 80
