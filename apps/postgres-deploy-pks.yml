@@ -23,7 +23,7 @@ spec:
     spec:
       containers:
         - name: postgres
-          image: postgres:9.6
+          image: harbor.vmlive.italy/vmlive/postgres:9.6
           env:
             - name: POSTGRES_PASSWORD
               value: VMware1!
