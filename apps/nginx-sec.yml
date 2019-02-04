@@ -30,6 +30,6 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: extensions/v1beta1
+          image: harbor.vmlive.italy/vmlive/nginx
           ports:
           - containerPort: 80
