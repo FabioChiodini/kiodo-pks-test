@@ -3,3 +3,5 @@ redis:4.0.2
 mreferre/yelb-db:0.3
 mreferre/yelb-appserver:0.3
 postgres:9.6
+nginx:1.15
+google/cadvisor:v0.31.0
