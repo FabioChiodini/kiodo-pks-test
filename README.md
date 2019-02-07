@@ -11,18 +11,31 @@ To demo networking
 kubectl create namespace kiodo
 ```
 
+Then activate security policies:
+
+```
+kubectl apply -f kiodo-pks-test/apps/nsx-pod-policy.yaml
+```
+
+and deploy a workload that uses them:
+
+```
+kubectl apply -f kiodo-pks-test/apps/nginx-sec.yml
+```
+
 To see the deployment
 
 ```
 kubectl get deployments --namespace=kiodo
 ```
 
+To check the network policies
 
 ```
 kubectl get networkpolicies --namespace=kiodo
 ```
 
-## Network policies
+## Network policies in NSX-T
 
 ![Alt text](/images/NSXAllow.png "NSXAllow")
 
