@@ -35,7 +35,7 @@ kubectl get networkpolicies --namespace=kiodo
 Deploy a pod with a non-existing image:
 
 ```
-kubectl apply -f kiodo-pks-test/apps/wrongimage.yal
+kubectl apply -f kiodo-pks-test/apps/wrong-image.yml
 ```
 
 Search for nginx-* in vRLI
