@@ -1,1 +1,11 @@
-dew
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: redis-slave-claim
+spec:
+  accessModes:
+    - ReadWriteOnce
+  resources:
+    requests:
+      storage: 8Gi
+storageClassName: thin-disk
