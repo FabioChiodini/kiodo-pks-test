@@ -1,3 +1,9 @@
+
+More info on how to setup PKS and vRealize LogInsight here:
+
+https://blog.kiodo.io/post/seeingisbelieving/
+
+
 To check 
 
 
