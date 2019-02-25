@@ -1,5 +1,5 @@
 
-More info on how to setup PKS and vRealize LogInsight here:
+More info on how to setup PKS and vRealize Operations here:
 
 https://blog.kiodo.io/post/seeingisbelieving/
 
