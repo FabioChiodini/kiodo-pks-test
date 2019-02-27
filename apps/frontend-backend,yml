@@ -1,0 +1,35 @@
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: frontend
+  namespace: kiodo
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+        - name: nginx
+          image: harbor.vmlive.italy/vmlive/nginx:1.15
+          ports:
+          - containerPort: 80
+---
+kind: Deployment
+apiVersion: extensions/v1beta1
+metadata:
+  name: backend
+  namespace: kiodo
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: db
+    spec:
+      containers:
+        - name: nginx
+          image: harbor.vmlive.italy/vmlive/nginx:1.15
+          ports:
+          - containerPort: 80
