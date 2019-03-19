@@ -82,4 +82,4 @@ spec:
           path: /var/run/docker/containerd/docker-containerd.sock
       - name: disk
         hostPath:
-        path: /dev/disk
+          path: /dev/disk
