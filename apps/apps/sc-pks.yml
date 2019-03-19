@@ -4,4 +4,4 @@ metadata:
   name: thin-disk
 provisioner: kubernetes.io/vsphere-volume
 parameters:
-diskformat: thin
+  diskformat: thin
