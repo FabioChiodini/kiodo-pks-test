@@ -6,3 +6,4 @@ postgres:9.6
 nginx:1.15
 google/cadvisor:v0.31.0
 alpine:3.9
+google/cadvisor:v0.33.0
