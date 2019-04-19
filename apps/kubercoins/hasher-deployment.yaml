@@ -18,7 +18,7 @@ spec:
         run: hasher
     spec:
       containers:
-      - image: dockercoins/hasher:v0.1
+      - image: harbor.vmlive.italy/vmlive/hasher:v0.1
         name: hasher
         resources: {}
 status: {}
