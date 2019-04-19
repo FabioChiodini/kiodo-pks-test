@@ -14,5 +14,5 @@ spec:
         run: rng
     spec:
       containers:
-      - image: harbor.vmlive.italy/vmlive/rng:v0.1
+      - image: harbor.vmlive.italy/vmlive/dockercoins/rng:v0.1
         name: rng
