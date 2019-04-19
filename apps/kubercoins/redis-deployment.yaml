@@ -18,7 +18,7 @@ spec:
         run: redis
     spec:
       containers:
-      - image: redis
+      - image: harbor.vmlive.italy/vmlive/redis
         name: redis
         resources: {}
 status: {}
