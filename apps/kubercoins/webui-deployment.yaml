@@ -18,7 +18,7 @@ spec:
         run: webui
     spec:
       containers:
-      - image: harbor.vmlive.italy/vmlive/webui:v0.1
+      - image: harbor.vmlive.italy/vmlive/dockercoins/webui:v0.1
         name: webui
         resources: {}
 status: {}
