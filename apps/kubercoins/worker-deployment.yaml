@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  labels:
+    run: worker
+  name: worker
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      run: worker
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+      labels:
+        run: worker
+    spec:
+      containers:
+      - image: harbor.vmlive.italy/vmlive/worker:v0.1
+        name: worker
+        resources: {}
+status: {}
