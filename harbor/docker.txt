@@ -7,3 +7,7 @@ nginx:1.15
 google/cadvisor:v0.31.0
 alpine:3.9
 google/cadvisor:v0.33.0
+dockercoins/hasher:v0.1
+dockercoins/rng:v0.1
+dockercoins/webui:v0.1
+dockercoins/worker:v0.1
