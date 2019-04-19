@@ -18,7 +18,7 @@ spec:
         run: worker
     spec:
       containers:
-      - image: harbor.vmlive.italy/vmlive/worker:v0.1
+      - image: harbor.vmlive.italy/vmlive/dockercoins/worker:v0.1
         name: worker
         resources: {}
 status: {}
