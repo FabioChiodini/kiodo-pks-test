@@ -9,5 +9,5 @@ spec:
     - ReadWriteOnce
   persistentVolumeReclaimPolicy: Retain
   vsphereVolume:
-    volumePath: "[datastore1] volumes/myDisk"
+    volumePath: "[vnxfs1] kubevols/dr0001"
     fsType: ext4
